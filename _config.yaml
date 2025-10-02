@@ -1,0 +1,8 @@
+title: Suraj Dayma
+description: Robotics & Autonomous Systems Student
+theme: minima
+
+header_pages:
+  - about.md
+  - projects.md
+  - contact.md
