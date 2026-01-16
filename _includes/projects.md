@@ -2,7 +2,7 @@
 
 
 ### Research Projects
-- [Optimal Control Using Physics Informed Neural Networks](/_projects/optimal-control)
+- [Optimal Control Using Physics Informed Neural Networks](/_projects/optimal-control/)
 - [High Resolution Air Quality Monitoring](/projects/high-resolution-air-quality-monitoring/)
 
 ### Coursework 
