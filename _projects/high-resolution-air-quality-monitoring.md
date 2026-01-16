@@ -1,7 +1,6 @@
 ---
 title: "High Resolution Air Quality Monitoring"
 layout: project
-permalink: /projects/high-resolution-air-quality-monitoring/
 ---
 
 
