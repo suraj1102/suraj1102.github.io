@@ -172,24 +172,3 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
 .fakelink { text-decoration: none; cursor: pointer; }
 
 .bibref { font-size: 70%; margin-top: 10px; margin-left: 0px; display: none; font-family: monospace; }
-
-/* Change header style for projects page to be on top rather than left column style */
-.project-header {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  float: none;
-  -webkit-font-smoothing: subpixel-antialiased;
-  padding-top: 1.5em;
-  text-align: center;
-  background: #043361;
-  z-index: 1000;
-}
-
-.project-header a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-  margin-right: 2em;
-}
