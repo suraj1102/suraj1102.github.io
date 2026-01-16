@@ -175,16 +175,16 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
 
 /* Change header style for projects page to be on top rather than left column style */
 .project-header {
-  width: 100% !important;
-  position: static !important;
-  float: none !important;
-  background: #222;
-  color: #fff;
-  padding: 1em 2em;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  text-align: left;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  float: none;
+  -webkit-font-smoothing: subpixel-antialiased;
+  padding-top: 1.5em;
+  text-align: center;
+  background: #043361;
+  z-index: 1000;
 }
 
 .project-header a {
