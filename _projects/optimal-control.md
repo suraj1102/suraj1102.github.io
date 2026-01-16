@@ -6,6 +6,7 @@ layout: project
 *Mentor: [Suraj Kumar](https://www.linkedin.com/in/suraj-kumar-363b61a6/), UR Rao Satellite Centre, Indian Space Research Organisation*
 
 ---
+### Objective
 
 We aim to compute the **value function** corresponding to a **nonlinear dynamical system**.
 
@@ -23,7 +24,7 @@ $$
 
 ---
 
-## Value Function and Hamilton–Jacobi Equation
+### Value Function and Hamilton–Jacobi Equation
 
 The value function $$ V(x) $$ satisfies the **Hamilton–Jacobi Equation (HJE)**, which is a nonlinear partial differential equation (PDE).   By solving this PDE using a **Physics-Informed Neural Network (PINN)**, we obtain an approximation of the value function.
 
@@ -31,7 +32,7 @@ This learned value function can then be used to design a **nonlinear optimal con
 
 ---
 
-## Results and More Info
+### Results and More Info
 Checkout [this presentation](https://www.canva.com/design/DAG6YlWmPtk/A4OxgAm_G9T6oKV9zZcR5A/edit?utm_content=DAG6YlWmPtk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) for more information and results.
 
 ---
