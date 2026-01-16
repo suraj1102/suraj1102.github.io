@@ -2,8 +2,8 @@
 
 
 ### Ongoing
-- [High Resolution Air Quality Monitoring](/_projects/high-resolution-air-quality-monitoring.md)
+- [High Resolution Air Quality Monitoring](/projects/high-resolution-air-quality-monitoring/)
 
 ### Completed 
-- [Realtime Score Prediction in ODI Cricket](/_projects/realtime-score-prediction-odi-cricket.md)
-- [Jumping Robot](/_projects/jumping-robot.md)
+- [Realtime Score Prediction in ODI Cricket](/projects/realtime-score-prediction-odi-cricket/)
+- [Jumping Robot](/projects/jumping-robot/)

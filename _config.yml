@@ -55,3 +55,10 @@ exclude:
   - LICENSE
   - minimal-light.gemspec
   - html_source_file/
+
+# Collections
+# Enable output for project pages and define clean permalinks
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
