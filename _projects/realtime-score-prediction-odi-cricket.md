@@ -7,7 +7,7 @@ layout: project
 
 > Teammates: [Arnav Kapoor](https://www.linkedin.com/in/arnav-kapoor-9361a3112/), [Avantika Bansal](https://www.linkedin.com/in/avantika-bansal-9253b3278/), [Suraj Dayma](/)
 
-_**[Code](https://github.com/S-rg/CricketFinalScorePrediction)** | **[Presentation](https://ai3011.plaksha.edu.in/Spring%202025/PDFs/Arnav%20Kapoor.pdf)**_
+**[_Code_](https://github.com/S-rg/CricketFinalScorePrediction)** | **[_Presentation_](https://ai3011.plaksha.edu.in/Spring%202025/PDFs/Arnav%20Kapoor.pdf)**
 
 Cricket is a sport which generates a lot of statistical data. Metrics like runs, shot and ball type, and length are recorded for every over and are usually averaged to communicate the efficacy of players. Teams often use these metrics to curate their lineup of 11 players as well as decide which bowler to play against particular batsmen. Such analysis is aided by using machine learning techniques to predict the outcome of matches.
 
