@@ -5,6 +5,8 @@ layout: project
 
 *Mentor: [Suraj Kumar](https://www.linkedin.com/in/suraj-kumar-363b61a6/), UR Rao Satellite Centre, Indian Space Research Organisation*
 
+<span style="color:gray;">Sep 2025 – Dec 2025</span>
+
 ---
 ### Objective
 
