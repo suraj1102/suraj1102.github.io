@@ -1,13 +1,26 @@
 ---
 title: "Realtime Score Prediction in ODI Cricket"
 layout: project
+description: An LSTM-based system that predicts the final score of an ODI cricket innings from any game state, using two decades of ball-by-ball data and custom pitch-condition metrics.
+venue: "Course · AI3011: Machine Learning and Pattern Recognition"
+authors:
+  - name: Arnav Kapoor
+    url: https://www.linkedin.com/in/arnav-kapoor-9361a3112/
+    institution: Plaksha University
+  - name: Avantika Bansal
+    url: https://www.linkedin.com/in/avantika-bansal-9253b3278/
+    institution: Plaksha University
+  - name: Suraj Dayma
+    url: /
+    institution: Plaksha University
+links:
+  - name: Code
+    url: https://github.com/S-rg/CricketFinalScorePrediction
+    icon: fa-brands fa-github
+  - name: Slides
+    url: https://ai3011.plaksha.edu.in/Spring%202025/PDFs/Arnav%20Kapoor.pdf
+    icon: fa-regular fa-file-lines
 ---
-
-> Course: AI3011: Machine Learning and Pattern Recognition
-
-> Teammates: [Arnav Kapoor](https://www.linkedin.com/in/arnav-kapoor-9361a3112/), [Avantika Bansal](https://www.linkedin.com/in/avantika-bansal-9253b3278/), [Suraj Dayma](/)
-
-**[_Code_](https://github.com/S-rg/CricketFinalScorePrediction)** | **[_Presentation_](https://ai3011.plaksha.edu.in/Spring%202025/PDFs/Arnav%20Kapoor.pdf)**
 
 Cricket is a sport which generates a lot of statistical data. Metrics like runs, shot and ball type, and length are recorded for every over and are usually averaged to communicate the efficacy of players. Teams often use these metrics to curate their lineup of 11 players as well as decide which bowler to play against particular batsmen. Such analysis is aided by using machine learning techniques to predict the outcome of matches.
 
