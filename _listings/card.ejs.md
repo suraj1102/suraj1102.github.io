@@ -24,7 +24,7 @@
           <% if (item.categories) { %>
           <div class="listing-categories">
             <% for (const category of item.categories) { %>
-            <div class="listing-category"><%= category %></div>
+            <div class="listing-category cat-<%= category.toLowerCase().replace(/[^a-z0-9]+/g, '-') %>"><%= category %></div>
             <% } %>
           </div>
           <% } %>

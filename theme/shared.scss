@@ -224,7 +224,7 @@ a.quarto-grid-link {
 
     img {
       width: 100%;
-      aspect-ratio: 16 / 10;
+      aspect-ratio: 16 / 9;
       object-fit: cover;
       display: block;
     }
@@ -233,42 +233,55 @@ a.quarto-grid-link {
   // Graceful degradation: no image, no empty slot. The card just becomes a
   // clean text tile with a little more breathing room.
   &.no-image .card-body {
-    padding-top: 1.35rem;
+    padding-top: 1.05rem;
   }
 
   .card-body {
-    padding: 1.1rem 1.15rem 1.25rem;
+    padding: 0.85rem 0.95rem 0.95rem;
   }
 
   .card-title {
-    font-size: 1.1rem;
+    font-size: 1.02rem;
     font-weight: 600;
-    line-height: 1.3;
-    margin-bottom: 0.45rem;
+    line-height: 1.25;
+    margin-bottom: 0.3rem;
   }
 
   .listing-description {
     color: $s-muted;
-    font-size: 0.92rem;
-    line-height: 1.5;
+    font-size: 0.87rem;
+    line-height: 1.42;
   }
 
   .listing-categories {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.35rem;
-    margin-bottom: 0.6rem;
+    gap: 0.3rem;
+    margin-bottom: 0.45rem;
   }
 
   .listing-category {
     background-color: $s-badge-bg;
     color: $s-badge-color;
     border-radius: 999px;
-    padding: 0.1rem 0.6rem;
-    font-size: 0.75rem;
-    letter-spacing: 0.02em;
+    padding: 0.08rem 0.55rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     cursor: inherit;
+
+    // Per-category colours. The class is emitted by _listings/card.ejs.md as
+    // cat-<slug>, so a new category falls back to the neutral badge above
+    // until it gets a rule here.
+    &.cat-research {
+      background-color: $s-cat-research-bg;
+      color: $s-cat-research-color;
+    }
+
+    &.cat-course {
+      background-color: $s-cat-course-bg;
+      color: $s-cat-course-color;
+    }
   }
 }
 
