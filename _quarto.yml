@@ -1,0 +1,54 @@
+project:
+  type: website
+  output-dir: _site
+  # Only .qmd is rendered. Everything Jekyll owns is .md or lives in an
+  # underscore directory (which Quarto ignores), so the two builds coexist
+  # until the Jekyll files are removed at cutover.
+  render:
+    - "**/*.qmd"
+  resources:
+    - "assets/**"
+    # Superseded by the co-located WebP files in projects/ and experience/.
+    # The source PNGs are kept in the repo but not published.
+    - "!assets/img/projects/**"
+    - "!assets/img/suraj_pfp.png"
+    # Leftovers from the old Jekyll theme.
+    - "!assets/img/avatar.png"
+    - "!assets/img/teaser_example*.png"
+    - "!assets/files/curriculum_vitae.pdf"
+
+website:
+  title: "Suraj Dayma"
+  description: "B.Tech. student in Robotics and Autonomous Systems at Plaksha University, working on control systems, machine learning, and IoT for urban monitoring."
+  site-url: "https://suraj1102.github.io"
+  favicon: assets/img/favicon.png
+  open-graph: true
+  # No navbar or sidebar: the site is a single page plus detail pages.
+  # Quarto floats the light/dark toggle top-right when no navbar hosts it.
+  page-navigation: false
+  back-to-top-navigation: false
+  # No navbar means no search box to type into, so the search bundle
+  # (fuse + autocomplete, ~160 KB) would be dead weight.
+  search: false
+
+format:
+  html:
+    theme:
+      light: [default, theme/light.scss, theme/shared.scss]
+      dark: [default, theme/dark.scss, theme/shared.scss]
+    # Off by default in Quarto: without it the site always opens in the light
+    # theme and only the toggle switches it, ignoring the OS setting.
+    respect-user-color-scheme: true
+    toc: false
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: false
+    fig-align: left
+    html-math-method: mathjax
+    grid:
+      body-width: 900px
+
+execute:
+  freeze: false
+  echo: false

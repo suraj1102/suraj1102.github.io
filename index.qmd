@@ -1,0 +1,60 @@
+---
+title: "Suraj Dayma"
+pagetitle: "Suraj Dayma"
+about:
+  id: intro
+  template: solana
+  image: assets/img/avatar-suraj.webp
+  image-shape: round
+  image-width: 190px
+  links:
+    - icon: file-earmark-person
+      text: CV
+      href: assets/files/Suraj_CV_OnePage.pdf
+    - icon: github
+      text: GitHub
+      href: https://github.com/suraj1102
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/surajdayma
+    - icon: envelope
+      text: Email
+      href: "mailto:suraj.dayma.ug23@plaksha.edu.in"
+listing:
+  - id: projects
+    contents: projects/*/index.qmd
+    template: _listings/card.ejs.md
+    fields: [image, image-alt, title, description, categories]
+    sort: "order"
+    sort-ui: false
+    filter-ui: false
+    grid-columns: 2
+    image-lazy-loading: true
+---
+
+::: {#intro}
+B.Tech. student in Robotics and Autonomous Systems at Plaksha University, working
+on control systems, machine learning, and IoT for urban monitoring. I also make
+educational animations and computer-graphics content — some of it is on
+[this YouTube playlist](https://youtube.com/playlist?list=PLab2EpIGbIVd9DgnPfOMJ6ehyLLtiyCWI&si=0IHqm07wHnHPA_e1).
+:::
+
+## Experience
+
+::: {.experience-list}
+- [Student Tutor, Mechatronics]{.exp-role}<br>
+  [Plaksha University]{.exp-org} · [Aug 2025 – Dec 2025]{.exp-dates}<br>
+  [Ran tutorials and labs on differential-drive kinematics, PID control, and DC
+  motor modelling. [More info](/experience/mechatronics-ta/)]{.exp-summary}
+
+- [Summer Research Intern]{.exp-role}<br>
+  [Prof. Sunita Chauhan, Plaksha University]{.exp-org} · [Jun 2025 – Aug 2025]{.exp-dates}<br>
+  [Built a ROS2 testbed robot with LiDAR, IMU, GPS and camera for a
+  precision-agriculture UGV, implementing SLAM, mission planning and
+  localization. [More info](/experience/summer-intern-lars/)]{.exp-summary}
+:::
+
+## Projects
+
+::: {#projects}
+:::
