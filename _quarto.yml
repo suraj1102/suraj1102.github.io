@@ -39,7 +39,9 @@ format:
     # Off by default in Quarto: without it the site always opens in the light
     # theme and only the toggle switches it, ignoring the OS setting.
     respect-user-color-scheme: true
-    toc: false
+    toc: true
+    toc-location: right
+    toc-title: "On this page"
     anchor-sections: true
     smooth-scroll: true
     link-external-newwindow: true
