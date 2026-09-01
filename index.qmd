@@ -42,6 +42,11 @@ educational animations and computer-graphics content — some of it is on
 ## Experience
 
 ::: {.experience-list}
+- [Research Intern]{.exp-role}<br>
+  [Indian Space Research Organisation (ISRO)]{.exp-org} · [Jun 2026 – Aug 2026]{.exp-dates}<br>
+  [Worked on simulation and training pipeline for hierarchical RL controllers for legged locomotion.]
+  <!-- [More info](/experience/mechatronics-ta/)]{.exp-summary} -->
+
 - [Student Tutor, Mechatronics]{.exp-role}<br>
   [Plaksha University]{.exp-org} · [Aug 2025 – Dec 2025]{.exp-dates}<br>
   [Ran tutorials and labs on differential-drive kinematics, PID control, and DC
