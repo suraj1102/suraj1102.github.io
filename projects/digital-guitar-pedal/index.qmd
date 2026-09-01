@@ -1,0 +1,21 @@
+---
+title: "Digital Guitar Pedal"
+subtitle: "Research Project"
+description: "A custom 16-bit, 44.1kHz digital effects pedal for guitar, built from scratch with real-time low-latency audio processing on a Teensy 4.1."
+categories: [Research]
+start-date: "Feb 2026"
+end-date: "May 2026"
+github: https://github.com/S-rg/TeensyGuitarPedal
+no-page-link: true
+author:
+  - name: Suraj Dayma
+    url: /
+    affiliation: Plaksha University
+---
+
+*Mentor: [Prof. Srikant Srinivasan](https://plaksha.edu.in/faculty-details/dr-srikant-srinivasan), Plaksha University.*
+
+Engineered a custom 16-bit, 44.1kHz digital effects pedal for the guitar from scratch, alongside an enclosure and full UI interface.
+
+- Designed single-supply biasing op-amp circuits for pickup signal level and impedance matching with the downstream ADC.
+- Implemented real-time, low-latency audio processing on the Teensy 4.1, including a 10-stage tone stack, distortion, delay, reverb, and more.

@@ -3,9 +3,7 @@ title: "Balancing Bot"
 subtitle: "RO2001: System Dynamics and Control"
 description: "A cart-pole-inspired self-balancing robot using an IMU and stepper motors, kept upright with PID control tuned via the Ziegler–Nichols method."
 categories: [Course]
-order: 4
-image: thumb.webp
-image-alt: "Self-balancing two-wheeled robot"
+start-date: "Apr 2025"
 author:
   - name: Suraj Dayma
     url: /

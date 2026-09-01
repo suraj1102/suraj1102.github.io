@@ -1,0 +1,21 @@
+---
+title: "Comparison of Neural Network and RL based Controls"
+subtitle: "Research Project"
+description: "Comparing physics-informed neural network HJB-PDE solvers against RL algorithms for the inverted pendulum control problem, validated on hardware."
+categories: [Research]
+start-date: "Feb 2026"
+end-date: "May 2026"
+no-page-link: true
+github: https://github.com/suraj1102/Optimal-Control-Problem
+author:
+  - name: Suraj Dayma
+    url: /
+    affiliation: Plaksha University
+---
+
+*Mentor: Prof. Sandeep Manjanna, Plaksha University.*
+
+Compared physics-informed neural network (PINN) based HJB-PDE solvers against RL algorithms for the inverted pendulum control problem.
+
+- Constructed an inverted pendulum system for hardware testing of policies, achieving under 10 degrees of tracking error with naive PD position control.
+- Found that PINN-based controllers yield more optimal solutions, with under 0.002 mean reward deviation from a trajectory-optimization benchmark.

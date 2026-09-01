@@ -3,7 +3,9 @@ title: "Realtime Score Prediction in ODI Cricket"
 subtitle: "AI3011: Machine Learning and Pattern Recognition"
 description: "An LSTM-based system that predicts the final score of an ODI cricket innings from any game state, using two decades of ball-by-ball data and custom pitch-condition metrics."
 categories: [Course]
-order: 5
+start-date: "Feb 2025"
+end-date: "May 2025"
+github: https://github.com/S-rg/CricketFinalScorePrediction
 author:
   - name: Arnav Kapoor
     url: https://www.linkedin.com/in/arnav-kapoor-9361a3112/

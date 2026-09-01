@@ -1,0 +1,19 @@
+---
+title: "Inverse PINN Modelling of Flow in a Compliant Tube"
+subtitle: "Research Project"
+description: "A physics-informed inverse model of fluid–structure interaction in collapsible tubes, developed to study pressure and velocity fields in venous blood flow."
+categories: [Research]
+start-date: "Aug 2026"
+end-date: "Present"
+author:
+  - name: Suraj Dayma
+    url: /
+    affiliation: Plaksha University
+---
+
+*Mentor: Prof. Shashikant Pawar, Plaksha University.*
+
+Ongoing work analyzing flow–structure interactions in collapsible tubes to study pressure and velocity fields in venous blood flow.
+
+- Developing fluid–structure interaction (FSI) models alongside an experimental setup for tube deformation and flow measurements.
+- Building a physics-informed inverse model using PINNs combined with CFD pipelines to validate experimental measurements.

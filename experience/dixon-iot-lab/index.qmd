@@ -1,0 +1,37 @@
+---
+title: "Student Researcher, Dixon IoT Lab"
+subtitle: "Plaksha University · Aug 2025 – Jun 2026"
+description: "Air quality monitoring for the Chandigarh Tricity region and air quality analysis of North India"
+---
+
+> Mentor: [Dr. Srikant Srinivasan](https://plaksha.edu.in/faculty-details/dr-srikant-srinivasan), Professor & Dean of Academics, Plaksha University.
+
+::: {.link-row}
+[<i class="bi bi-file-earmark-text"></i> Project Document](https://docs.google.com/document/d/1dyaCyCE1xLzGSbYHfhus8qxrCDiPNgCcAdTmXJ1JWGg/edit?usp=sharing)
+:::
+
+### Air Quality Analysis of North India
+
+- Scraped over 30 million datapoints of live air quality data from across North India, at a frequency of 10 minutes for over 4 months.
+- Developed a novel encoder-decoder model to analyze spatio-temporal air quality data and identify regional pollution trends over time.
+- Conducted a divergence analysis of pollution motion across North India by integrating wind data to find pollution sources and sinks.
+
+### Air Quality Mapping of Chandigarh Tricity Area
+
+::: {.highlight-panel}
+Air pollution in India is a major challenge, especially in cities where local spikes often go undetected due to sparse monitoring. Existing government stations are too few to capture these variations, and AQI metrics often overlook harmful gases.
+
+This project tackles that by building a network of affordable, high-resolution IoT air quality monitors across the Tricity region, providing detailed, real-time pollution data to support research, community awareness, and policy decisions.
+
+This work is part of the broader 'Digital Terrascope' initiative for smart city analytics, which also includes meteorological and traffic projects.
+:::
+
+- Designed and deployed low cost IoT air quality monitors to create a dense air quality map of the Chandigarh Tricity area.
+- Developed a custom C++ sensor library supporting 12 sensors and 3 communication protocols, with dynamic runtime sensor initialization.
+- Built an interactive web dashboard to visualize local air quality analytics for deployment on the Chandigarh Citizens Foundation website.
+
+You can read a more detailed description of the problem and the work conducted so far [here](https://docs.google.com/document/d/1dyaCyCE1xLzGSbYHfhus8qxrCDiPNgCcAdTmXJ1JWGg/edit?usp=sharing).
+
+### Publication
+
+Kapoor A, Dayma S, Narula M, Srinivasan S. *A Framework for High-Resolution Air Quality Monitoring for the Chandigarh Tricity Region*. [15th International Conference on Air Quality – Science and Application](https://www.air-quality-conference.org/prague2026/abstracts.html).

@@ -10,7 +10,7 @@ about:
   links:
     - icon: file-earmark-person
       text: CV
-      href: assets/files/Suraj_CV_OnePage.pdf
+      href: assets/files/Suraj_CV.pdf
     - icon: github
       text: GitHub
       href: https://github.com/suraj1102
@@ -22,14 +22,12 @@ about:
       href: "mailto:suraj.dayma.ug23@plaksha.edu.in"
 listing:
   - id: projects
-    contents: projects/*/index.qmd
+    contents: projects/index.yml
     template: _listings/card.ejs.md
-    fields: [image, image-alt, title, description, categories]
-    sort: "order"
+    fields: [title, description, categories, start-date, end-date, homepage, github, no-page-link]
+    sort: false
     sort-ui: false
     filter-ui: false
-    grid-columns: 2
-    image-lazy-loading: true
 ---
 
 ::: {#intro}
@@ -43,20 +41,36 @@ educational animations and computer-graphics content — some of it is on
 
 ::: {.experience-list}
 - [Research Intern]{.exp-role}<br>
-  [Indian Space Research Organisation (ISRO)]{.exp-org} · [Jun 2026 – Aug 2026]{.exp-dates}<br>
-  [Worked on simulation and training pipeline for hierarchical RL controllers for legged locomotion.]
-  <!-- [More info](/experience/mechatronics-ta/)]{.exp-summary} -->
+  [UR Rao Satellite Centre, Indian Space Research Organisation (ISRO)]{.exp-org} · [Jun 2026 – Jul 2026]{.exp-dates}<br>
+  Built a robot- and simulator-agnostic training framework for hierarchical
+  locomotion controllers, combining a learned foot-placement policy with
+  MPC/QP joint control.
 
-- [Student Tutor, Mechatronics]{.exp-role}<br>
-  [Plaksha University]{.exp-org} · [Aug 2025 – Dec 2025]{.exp-dates}<br>
-  [Ran tutorials and labs on differential-drive kinematics, PID control, and DC
-  motor modelling. [More info](/experience/mechatronics-ta/)]{.exp-summary}
+- [Student Researcher]{.exp-role}<br>
+  [Dixon IoT Lab, Plaksha University]{.exp-org} · [Aug 2025 – Jun 2026]{.exp-dates}<br>
+  [Air quality monitoring for the Chandigarh Tricity region and air quality analysis of North India.
+  [More info](/experience/dixon-iot-lab/)]{.exp-summary}
 
 - [Summer Research Intern]{.exp-role}<br>
   [Prof. Sunita Chauhan, Plaksha University]{.exp-org} · [Jun 2025 – Aug 2025]{.exp-dates}<br>
   [Built a ROS2 testbed robot with LiDAR, IMU, GPS and camera for a
   precision-agriculture UGV, implementing SLAM, mission planning and
   localization. [More info](/experience/summer-intern-lars/)]{.exp-summary}
+:::
+
+## Teaching
+
+::: {.experience-list}
+- [Student Tutor, FM214: Intelligent Machines]{.exp-role}<br>
+  [Plaksha University]{.exp-org} · [Aug 2026 – Present]{.exp-dates}<br>
+  Supporting instruction for the sophomore robotics course with 230+ students,
+  under Prof. Andy Ruina and Prof. Sandeep Manjanna, assisting with tutorials
+  and labs on mobile robots, estimation, planning, and control.
+
+- [Student Tutor, Mechatronics]{.exp-role}<br>
+  [Plaksha University]{.exp-org} · [Aug 2025 – Dec 2025]{.exp-dates}<br>
+  [Ran tutorials and labs on differential-drive kinematics, PID control, and DC
+  motor modelling. [More info](/experience/mechatronics-ta/)]{.exp-summary}
 :::
 
 ## Projects

@@ -175,121 +175,86 @@ main {
 }
 
 // ---------------------------------------------------------------------------
-// Project card grid
+// Project list
 // ---------------------------------------------------------------------------
 
 .quarto-listing {
   margin-top: 1rem;
 }
 
-// The whole card is a single <a>, so nothing inside it should look like a
-// separate link target.
-a.quarto-grid-link {
-  text-decoration: none !important;
-  color: inherit !important;
-  display: block;
-  height: 100%;
+.project-list {
+  display: flex;
+  flex-direction: column;
+}
 
-  &:focus-visible {
-    outline: none;
-    .quarto-grid-item {
-      border-color: $link-color;
-      box-shadow: 0 0 0 3px rgba(64, 153, 255, 0.4);
-    }
+.project-item {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid $s-border;
+
+  &:first-child {
+    padding-top: 0;
+  }
+
+  &:last-child {
+    border-bottom: none;
   }
 }
 
-.quarto-grid-item.card {
-  background-color: $s-card-bg;
-  border: 1px solid $s-card-border;
-  border-radius: $border-radius;
-  box-shadow: 0 1px 3px $s-card-shadow;
-  overflow: hidden;
-  height: 100%;
-  cursor: pointer;
-  transition: transform 0.16s ease, box-shadow 0.16s ease, border-color 0.16s ease;
+.project-item-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.45rem;
+}
 
-  // Affordance at rest is the border + shadow; hover only enhances it, because
-  // hover does not exist on touch devices.
+.project-item-title {
+  font-size: 1.02rem;
+  font-weight: 600;
+}
+
+a.project-item-icon {
+  color: $s-muted;
+  font-size: 0.85rem;
+  line-height: 1;
+
   &:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 18px $s-card-shadow-hover;
-    border-color: $link-color;
-  }
-
-  .card-img-top {
-    margin: 0;
-    background-color: $s-image-mat;
-    border-bottom: 1px solid $s-card-border;
-
-    img {
-      width: 100%;
-      aspect-ratio: 16 / 9;
-      object-fit: cover;
-      display: block;
-    }
-  }
-
-  // Graceful degradation: no image, no empty slot. The card just becomes a
-  // clean text tile with a little more breathing room.
-  &.no-image .card-body {
-    padding-top: 1.05rem;
-  }
-
-  .card-body {
-    padding: 0.85rem 0.95rem 0.95rem;
-  }
-
-  .card-title {
-    font-size: 1.02rem;
-    font-weight: 600;
-    line-height: 1.25;
-    margin-bottom: 0.3rem;
-  }
-
-  .listing-description {
-    color: $s-muted;
-    font-size: 0.87rem;
-    line-height: 1.42;
-  }
-
-  .listing-categories {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.3rem;
-    margin-bottom: 0.45rem;
-  }
-
-  .listing-category {
-    background-color: $s-badge-bg;
-    color: $s-badge-color;
-    border-radius: 999px;
-    padding: 0.08rem 0.55rem;
-    font-size: 0.7rem;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    cursor: inherit;
-
-    // Per-category colours. The class is emitted by _listings/card.ejs.md as
-    // cat-<slug>, so a new category falls back to the neutral badge above
-    // until it gets a rule here.
-    &.cat-research {
-      background-color: $s-cat-research-bg;
-      color: $s-cat-research-color;
-    }
-
-    &.cat-course {
-      background-color: $s-cat-course-bg;
-      color: $s-cat-course-color;
-    }
+    color: $link-color;
   }
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .quarto-grid-item.card {
-    transition: none;
-    &:hover { transform: none; }
-  }
+.project-item-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.35rem;
+}
+
+.project-item-dates {
+  color: $s-muted;
+  font-size: 0.78rem;
+}
+
+.project-item-desc {
+  color: $s-muted;
+  font-size: 0.87rem;
+  line-height: 1.42;
+  margin-top: 0.35rem;
+}
+
+.listing-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.listing-category {
+  background-color: $s-badge-bg;
+  color: $s-badge-color;
+  border-radius: 999px;
+  padding: 0.08rem 0.55rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 // ---------------------------------------------------------------------------

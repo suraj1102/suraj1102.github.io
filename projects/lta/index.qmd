@@ -3,9 +3,8 @@ title: "Lighter than Air Systems"
 subtitle: "RO2101: Design and Engineering of Lighter than Air Systems"
 description: "A collection of design, fabrication, and testing projects on lighter-than-air systems — aerostats, gliders, sizing analysis, and emergency deflation devices."
 categories: [Course]
-order: 3
-image: thumb.webp
-image-alt: "Tethered aerostat and glider launch system"
+start-date: "Jan 2025"
+end-date: "May 2025"
 author:
   - name: Suraj Dayma
     url: /

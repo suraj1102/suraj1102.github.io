@@ -3,7 +3,9 @@ title: "Optimal Control Using Physics Informed Neural Networks"
 subtitle: "Research Project"
 description: "Computing the value function of a nonlinear dynamical system with a Physics-Informed Neural Network to design a nonlinear optimal controller."
 categories: [Research]
-order: 1
+start-date: "Sep 2025"
+end-date: "Dec 2025"
+no-page-link: true
 author:
   - name: Suraj Dayma
     url: /
