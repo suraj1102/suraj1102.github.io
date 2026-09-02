@@ -1,6 +1,14 @@
 ---
 title: "Suraj Dayma"
 pagetitle: "Suraj Dayma"
+# The listing's content is templated client-side (via the EJS card), so
+# Quarto can't statically scan it for math and defaults to shipping the
+# MathJax + polyfill bundle from two external CDNs "just in case". Nothing
+# on this page uses math, so turn that off explicitly rather than paying
+# for it on every homepage load.
+format:
+  html:
+    html-math-method: plain
 about:
   id: intro
   template: solana
@@ -24,7 +32,7 @@ listing:
   - id: projects
     contents: projects/index.yml
     template: _listings/card.ejs.md
-    fields: [title, description, categories, start-date, end-date, homepage, github, no-page-link]
+    fields: [title, description, categories, start-date, end-date, homepage, github, no-page-link, paper]
     sort: false
     sort-ui: false
     filter-ui: false
@@ -33,7 +41,7 @@ listing:
 ::: {#intro}
 B.Tech. student in Robotics and Autonomous Systems at Plaksha University, working
 on control systems, machine learning, and IoT for urban monitoring. I also make
-educational animations and computer-graphics content — some of it is on
+educational animations and computer-graphics content, some of it on
 [this YouTube playlist](https://youtube.com/playlist?list=PLab2EpIGbIVd9DgnPfOMJ6ehyLLtiyCWI&si=0IHqm07wHnHPA_e1).
 :::
 

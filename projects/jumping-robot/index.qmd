@@ -11,11 +11,13 @@ author:
     affiliation: Plaksha University
 ---
 
-::: {.link-row}
-[<i class="bi bi-file-earmark-text"></i> Report](https://docs.google.com/document/d/1jpATiYn4C-Pz4TEwadlm_nwABOdWph0JAyLvsSU40m4/edit?usp=sharing)
-:::
+The objective of the project was to design a jumping / hopping robot.
 
-The objective of the project was to design a jumping / hopping robot. The detailed **[report can be found here](https://docs.google.com/document/d/1jpATiYn4C-Pz4TEwadlm_nwABOdWph0JAyLvsSU40m4/edit?usp=sharing)**.
+```{=html}
+<div class="embed-frame embed-frame-doc">
+<iframe src="https://docs.google.com/document/d/1jpATiYn4C-Pz4TEwadlm_nwABOdWph0JAyLvsSU40m4/preview" title="Jumping Robot Report"></iframe>
+</div>
+```
 
 ## Design Constraints
 

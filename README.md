@@ -35,7 +35,7 @@ assets/                      favicons, avatar, PDFs, original source images
 title: "My Project"
 subtitle: "CS1234: Course Name"       # shown under the title
 description: "One line. This is the card blurb."
-categories: [Course]                  # or [Research] — becomes the badge
+categories: [Course]                  # or [Research]; becomes the badge
 order: 8                              # controls position in the grid
 image: thumb.webp                     # optional; card degrades to text if absent
 image-alt: "Description of the image"
@@ -55,7 +55,7 @@ author:
 :::
 ```
 
-Icons are [Bootstrap Icons](https://icons.getbootstrap.com), bundled by Quarto —
+Icons are [Bootstrap Icons](https://icons.getbootstrap.com), bundled by Quarto;
 no CDN needed.
 
 ## Images

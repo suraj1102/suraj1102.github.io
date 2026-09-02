@@ -7,6 +7,7 @@ start-date: "Feb 2025"
 end-date: "May 2025"
 no-page-link: true
 github: https://github.com/S-rg/CricketFinalScorePrediction
+paper: https://ai3011.plaksha.edu.in/Spring%202025/PDFs/Arnav%20Kapoor.pdf
 author:
   - name: Arnav Kapoor
     url: https://www.linkedin.com/in/arnav-kapoor-9361a3112/

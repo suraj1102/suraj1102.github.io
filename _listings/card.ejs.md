@@ -2,14 +2,16 @@
 // Custom listing template for the project list.
 //
 // Renders projects as a plain, single-column list (title, keyword-tag
-// badges, date range, description) — no card chrome, no thumbnails. Order
+// badges, date range, description); no card chrome, no thumbnails. Order
 // comes from projects/index.yml, not from sorting metadata.
 //
-// The title is plain text. A chain icon after it links to the project's
-// own page on this site (set `no-page-link: true` on a project to skip
-// this — e.g. when there's nothing on the page worth a separate visit); a
-// further icon links out to the project's external homepage if it has
-// one, otherwise to its GitHub repo if that's all it has.
+// When a project has its own page on this site (the default), the title
+// itself and a chain icon after it both link there. Set `no-page-link:
+// true` on a project to skip this (e.g. when there's nothing on the page
+// worth a separate visit): in that case, set `paper:` on the project so a
+// paper icon still gives visitors somewhere to go. A further icon links
+// out to the project's external homepage if it has one, otherwise to its
+// GitHub repo if that's all it has.
 %>
 
 ```{=html}
@@ -17,9 +19,14 @@
 <% for (const item of items) { %>
   <div class="project-item">
     <div class="project-item-head">
-      <span class="project-item-title"><%= item.title %></span>
       <% if (!item['no-page-link']) { %>
+      <a href="<%- item.path %>" class="project-item-title-link"><span class="project-item-title"><%= item.title %></span></a>
       <a href="<%- item.path %>" class="project-item-icon" title="Project page"><i class="bi bi-link-45deg"></i></a>
+      <% } else { %>
+      <span class="project-item-title"><%= item.title %></span>
+      <% } %>
+      <% if (item.paper) { %>
+      <a href="<%- item.paper %>" class="project-item-icon" title="Paper" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i></a>
       <% } %>
       <% if (item.homepage) { %>
       <a href="<%- item.homepage %>" class="project-item-icon" title="Project website" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i></a>

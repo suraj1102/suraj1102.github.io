@@ -12,9 +12,11 @@ author:
     affiliation: Plaksha University
 ---
 
-::: {.link-row}
-[<i class="bi bi-play-fill"></i> Video](https://plakshauniversity1-my.sharepoint.com/:v:/g/personal/suraj_dayma_ug23_plaksha_edu_in/IQDHNnpnz-kKSYNOrlvS4JSHAatr_GMsK3YYYrmgYmcmpvo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1YGy7g)
-:::
+```{=html}
+<div class="embed-frame">
+<iframe src="https://plakshauniversity1-my.sharepoint.com/personal/suraj_dayma_ug23_plaksha_edu_in/_layouts/15/embed.aspx?UniqueId=677a36c7-e9cf-490a-834e-ae5bd2e09487&embed=%7B%22ust%22%3Afalse%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" frameborder="0" scrolling="no" allowfullscreen title="Hertz's Experiment.mp4"></iframe>
+</div>
+```
 
 We recreated the famous [Hertz Electromagnetism Experiment](https://en.wikipedia.org/wiki/Heinrich_Hertz#Electromagnetic_waves) due to which he was able to prove Maxwell's equations.
 

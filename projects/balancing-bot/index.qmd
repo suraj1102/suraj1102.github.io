@@ -11,7 +11,6 @@ author:
 ---
 
 ::: {.link-row}
-[<i class="bi bi-file-earmark-text"></i> Presentation](/assets/files/BalancingBotPresentation.pdf)
 [<i class="bi bi-play-fill"></i> Video](https://plakshauniversity1-my.sharepoint.com/:v:/g/personal/suraj_dayma_ug23_plaksha_edu_in/IQDtH-bvJljBT5serVaLuYi7AWsb5gbIjDkmA-NjLdE0UoU?e=J0hydy)
 :::
 
@@ -22,3 +21,11 @@ An IMU was used along with stepper motors as the sensors and actuators. I used t
 I also used the Ziegler–Nichols method for PID tuning and performed sensor and motor characterization as well to find response time and create a simple model of the system.
 
 ![Balancing Bot](balancing-bot.webp)
+
+## Presentation
+
+```{=html}
+<div class="embed-frame embed-frame-doc">
+<iframe src="/assets/files/BalancingBotPresentation.pdf" title="Balancing Bot Presentation"></iframe>
+</div>
+```
