@@ -2,7 +2,7 @@
 title: "Digital Guitar Pedal"
 subtitle: "Research Project"
 description: "A custom 16-bit, 44.1kHz digital effects pedal for guitar, built from scratch with real-time low-latency audio processing on a Teensy 4.1."
-categories: [Research]
+categories: [Embedded Systems, DSP]
 start-date: "Feb 2026"
 end-date: "May 2026"
 github: https://github.com/S-rg/TeensyGuitarPedal

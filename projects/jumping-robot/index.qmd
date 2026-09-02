@@ -2,7 +2,7 @@
 title: "Jumping Robot"
 subtitle: "ME3001: Engineering Mechanics"
 description: "Design of a jumping / hopping robot meeting jump-height, endurance, footprint, and cost constraints."
-categories: [Course]
+categories: [Mechenism Design, Dynamics]
 start-date: "Oct 2025"
 end-date: "Dec 2025"
 author:

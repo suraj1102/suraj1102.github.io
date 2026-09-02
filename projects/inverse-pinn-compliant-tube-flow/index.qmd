@@ -1,13 +1,16 @@
 ---
-title: "Inverse PINN Modelling of Flow in a Compliant Tube"
+title: "Modelling of Cardiovascular Flow"
 subtitle: "Research Project"
 description: "A physics-informed inverse model of fluid–structure interaction in collapsible tubes, developed to study pressure and velocity fields in venous blood flow."
-categories: [Research]
+categories: [Physics-informed ML, Fluid Dynamics, Modelling]
 start-date: "Aug 2026"
 end-date: "Present"
 author:
   - name: Suraj Dayma
     url: /
+    affiliation: Plaksha University
+  - name: Avantika Bansal
+    url: "AvantikaBnsl.github.io"
     affiliation: Plaksha University
 ---
 

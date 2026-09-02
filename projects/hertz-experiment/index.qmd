@@ -2,7 +2,7 @@
 title: "Hertz's Experiment"
 subtitle: "AS3101: Foundations of Electromagnetism"
 description: "Recreating Heinrich Hertz's experiment to generate and detect radio waves, experimentally validating Maxwell's equations."
-categories: [Course]
+categories: [Electromagnetism]
 start-date: "Nov 2026"
 author:
   - name: Mokash Soni

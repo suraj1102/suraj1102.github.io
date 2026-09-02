@@ -7,8 +7,8 @@
 - path: digital-guitar-pedal/index.qmd
 - path: nn-rl-control-comparison/index.qmd
 - path: optimal-control/index.qmd
+- path: jumping-robot/index.qmd
+- path: hertz-experiment/index.qmd
 - path: lta/index.qmd
 - path: balancing-bot/index.qmd
 - path: realtime-score-prediction-odi-cricket/index.qmd
-- path: hertz-experiment/index.qmd
-- path: jumping-robot/index.qmd

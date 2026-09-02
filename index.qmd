@@ -61,6 +61,10 @@ educational animations and computer-graphics content — some of it is on
 ## Teaching
 
 ::: {.experience-list}
+- [Student Tutor, FM113: Foundations of Physical World]{.exp-role}<br>
+  [Plaksha University]{.exp-org} · [Aug 2026 – Present]{.exp-dates}<br>
+  Supporting instruction for freshman physics course with 300+ students, under Prof. Shashikant Pawar, Prof. Praveen Kumar and Prof. Andy Ruina.
+
 - [Student Tutor, FM214: Intelligent Machines]{.exp-role}<br>
   [Plaksha University]{.exp-org} · [Aug 2026 – Present]{.exp-dates}<br>
   Supporting instruction for the sophomore robotics course with 230+ students,

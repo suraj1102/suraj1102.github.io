@@ -2,7 +2,7 @@
 title: "FOC Motor Control"
 subtitle: "Research Project"
 description: "Field-oriented control for a gimbal BLDC motor on STM32, enabling torque control with inline current sensing and near-zero torque ripple."
-categories: [Research]
+categories: [Embedded Systems, Motor Control]
 start-date: "Apr 2026"
 end-date: "May 2026"
 author:
