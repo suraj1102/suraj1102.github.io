@@ -5,6 +5,7 @@ description: "An LSTM-based system that predicts the final score of an ODI crick
 categories: [ML, Sports]
 start-date: "Feb 2025"
 end-date: "May 2025"
+no-page-link: true
 github: https://github.com/S-rg/CricketFinalScorePrediction
 author:
   - name: Arnav Kapoor

@@ -5,6 +5,7 @@ description: "A physics-informed inverse model of fluid–structure interaction 
 categories: [Physics-informed ML, Fluid Dynamics, Modelling]
 start-date: "Aug 2026"
 end-date: "Present"
+no-page-link: true
 author:
   - name: Suraj Dayma
     url: /

@@ -13,7 +13,7 @@ author:
 
 ::: {.link-row}
 [<i class="bi bi-play-fill"></i> TAG Video](https://plakshauniversity1-my.sharepoint.com/:v:/g/personal/suraj_dayma_ug23_plaksha_edu_in/IQCuYT1ZYpKlRKa2yXRidi0JARt1wqar3dYpX3vMs3SPCR4?e=JDFhEl)
-[<i class="bi bi-file-earmark-pdf"></i> Aerostat Sizing (PDF)](/assets/files/ITDA_Sizing_Asg.pdf)
+<!-- [<i class="bi bi-file-earmark-pdf"></i> Aerostat Sizing (PDF)](/assets/files/ITDA_Sizing_Asg.pdf) -->
 :::
 
 *Instructor: [Rajkumar Pant](https://www.linkedin.com/in/rajkumarpant/).*
