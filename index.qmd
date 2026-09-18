@@ -50,9 +50,7 @@ educational animations and computer-graphics content, some of it on
 ::: {.experience-list}
 - [Research Intern]{.exp-role}<br>
   [UR Rao Satellite Centre, Indian Space Research Organisation (ISRO)]{.exp-org} · [Jun 2026 – Jul 2026]{.exp-dates}<br>
-  Built a robot- and simulator-agnostic training framework for hierarchical
-  locomotion controllers, combining a learned foot-placement policy with
-  MPC/QP joint control.
+  [Learning & control for legged locomotion for lunar exploration. Combining RL with optimal control methods. [More info](/experience/isro-summer/)]{.exp-summary}
 
 - [Student Researcher]{.exp-role}<br>
   [Dixon IoT Lab, Plaksha University]{.exp-org} · [Aug 2025 – Jun 2026]{.exp-dates}<br>

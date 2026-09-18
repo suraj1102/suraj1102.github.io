@@ -16,6 +16,7 @@ project:
     - "!assets/img/avatar.png"
     - "!assets/img/teaser_example*.png"
     - "!assets/files/curriculum_vitae.pdf"
+    - "**/*.mp4"
 
 website:
   title: "Suraj Dayma"
